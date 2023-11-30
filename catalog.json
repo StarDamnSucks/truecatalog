@@ -4,7 +4,6 @@
   "stable": {
     "docker-compose": {
       "name": "docker-compose",
-      "categories": ["docker"],
       "app_readme": "<p>Dedicated App for using Docker-Compose on TrueNAS SCALE</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/docs/charts/stable/docker-compose\">https://truecharts.org/docs/charts/stable/docker-compose</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/docs/about/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "location": "/home/runner/work/catalog/catalog/stable/docker-compose",
       "healthy": true,
@@ -12,7 +11,27 @@
       "latest_version": "5.0.2",
       "latest_app_version": "20.10.21",
       "latest_human_version": "20.10.21_5.0.2",
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/docker-compose.png"
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/docker-compose.png",
+      "categories": [
+        "docker"
+      ],
+      "description": "Dedicated App for using Docker-Compose on TrueNAS SCALE",
+      "home": "https://truecharts.org/charts/stable/docker-compose",
+      "last_update": "2023-11-30 13:00:17",
+      "recommended": false,
+      "title": "Docker-compose",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/docker-compose"
+      ]
     }
   }
 }
